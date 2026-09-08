@@ -29,3 +29,8 @@ for ($i = 2; $i <= sqrt($nombre); $i++) {
             break;               // et on sort de la boucle for 
         }
     } //
+    if ($Premier) {
+        echo $nombre . "<br />";
+    }
+    $nombre++;
+}
